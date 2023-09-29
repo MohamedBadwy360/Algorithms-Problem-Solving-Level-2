@@ -44,8 +44,6 @@ void PerfectNumbersFrom1toN(int N)
 
 int main()
 {
-    // int Number = ReadPositiveNumber("Enter Positive Number: ");
-
     PerfectNumbersFrom1toN(ReadPositiveNumber("Enter Positive Number N: "));
 
     return 0;
