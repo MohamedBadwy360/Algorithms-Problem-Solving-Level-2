@@ -37,7 +37,7 @@ void PrintArray(int Array[100], int ArrayLength)
     cout << "\n----------------------\n";
 }
 
-void CopyArray(int SourceArray[100], int DestinationArray[100], int ArrayLength, int Array2Length)
+void CopyArray(int SourceArray[100], int DestinationArray[100], int ArrayLength, int &Array2Length)
 {
     for (int i = 0; i < ArrayLength; i++)
     {
@@ -58,7 +58,7 @@ int main()
 
     CopyArray(Array, Array2, ArrayLength, Array2Length);
     cout << "Array 2 Elements: ";
-    PrintArray(Array2, ArrayLength);
+    PrintArray(Array2, Array2Length);
 
     return 0;
 }
