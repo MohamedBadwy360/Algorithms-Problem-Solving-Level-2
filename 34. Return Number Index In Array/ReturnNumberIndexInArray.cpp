@@ -23,7 +23,7 @@ int RandomNumber(int From, int To)
     return (rand() % (To - From + 1) + From);
 }
 
-void FillArrayWithRandomKeys(int Array[100], int &ArrayLength)
+void FillArrayWithRandomNumbers(int Array[100], int &ArrayLength)
 {
     cout << "Enter Array Length: ";
     cin >> ArrayLength;
