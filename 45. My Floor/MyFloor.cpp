@@ -3,11 +3,6 @@
 
 using namespace std;
 
-float GetFractionPart(float Number)
-{
-    return Number - int(Number);
-}
-
 int MyFloor(float Number)
 {
     if (Number > 0)
