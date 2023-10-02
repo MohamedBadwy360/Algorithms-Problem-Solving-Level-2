@@ -59,7 +59,7 @@ short FindNumberIndexInArray(int Array[100], int ArrayLength, int Number)
 
 bool CheckNumberInArray(int Array[100], int ArrayLength, int Number)
 {
-    return (FindNumberIndexInArray(Array, ArrayLength, Number) == -1);
+    return (FindNumberIndexInArray(Array, ArrayLength, Number) != -1);
 }
 
 int main()
@@ -76,9 +76,9 @@ int main()
     cout << "Number to serach for is: " << Number << endl;
 
     if (CheckNumberInArray(Array, ArrayLength, Number))
-        cout << "Number is not found.\n";
-    else 
         cout << "Number is found.\n";
+    else 
+        cout << "Number is not found.\n";
     
     return 0;
 }
