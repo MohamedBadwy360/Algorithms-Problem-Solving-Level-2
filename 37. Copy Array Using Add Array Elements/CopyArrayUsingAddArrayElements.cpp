@@ -58,7 +58,7 @@ int main()
 
     CopyArray(Array, Array2, ArrayLength, Array2Length);
     cout << "Array 2 Elements: ";
-    PrintArray(Array, ArrayLength);
+    PrintArray(Array2, ArrayLength);
 
     return 0;
 }
