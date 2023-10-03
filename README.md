@@ -11,3 +11,9 @@ The Course is about Algorithms & Problem-Solving Level 2 Solutions with C++.
 ---
 
 **Tools:** `Visual Studio`, `Visual Studio Code`.
+
+---
+
+## `Certificate`
+
+![Certificate](/Algorithms%20&%20Problem-Solving%20Level%202.jpg)
